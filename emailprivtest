@@ -1,0 +1,14 @@
+git config --list
+	make sure your github private email is here NOT yout private one.
+
+change it with:
+
+git config --global user.email "privategithubmail@github.noreply.github.com"
+
+then run
+
+ git commit --amend --reset author
+
+git push
+
+
